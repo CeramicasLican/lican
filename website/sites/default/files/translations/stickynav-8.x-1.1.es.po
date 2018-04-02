@@ -1,0 +1,26 @@
+# Spanish translation of Sticky Navigation (8.x-1.1)
+# Copyright (c) 2017 by the Spanish translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Sticky Navigation (8.x-1.1)\n"
+"POT-Creation-Date: 2017-01-19 17:43+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Enable"
+msgstr "Activar"
+msgid "Enabled"
+msgstr "Activado"
+msgid "Action"
+msgstr "Acción"
+msgid "Edit"
+msgstr "Editar"
+msgid "Theme"
+msgstr "Tema"
+msgid "Selector"
+msgstr "Selector"

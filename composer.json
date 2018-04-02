@@ -1,0 +1,60 @@
+{
+    "name": "macbookpro/lican",
+    "description": "Cerámicas Licán website",
+    "type": "project",
+    "require": {
+        "cweagans/composer-patches": "^1.6.0",
+        "drupal/admin_toolbar": "^1.23",
+        "drupal/console": "^1.0.2",
+        "drupal/core": "^8.5",
+        "drupal/fontyourface": "^3.2",
+        "drupal/google_analytics": "^2.2",
+        "drupal/honeypot": "^1.27",
+        "drupal/responsive_menu": "^2.6",
+        "drupal/stickynav": "^1.1",
+        "drupal/webform": "^5.0@RC",
+        "drush/drush": "~8.0|^9.0.0-beta8",
+        "hussainweb/drupal-composer-helper": "^1.0"
+    },
+    "require-dev": {
+        "behat/mink": "~1.7",
+        "behat/mink-goutte-driver": "~1.2",
+        "jcalderonzumba/gastonjs": "~1.0.2",
+        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
+        "mikey179/vfsstream": "~1.2",
+        "phpunit/phpunit": ">=4.8.28 <5",
+        "symfony/css-selector": "~2.8"
+    },
+    "authors": [
+        {
+            "name": "Jorge Melo",
+            "email": "jorgedjma@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "drupal-composer-helper": {
+            "web-prefix": "website"
+        },
+        "enable-patching": true,
+        "installer-paths": {
+            "website/core": [
+                "type:drupal-core"
+            ]
+        }
+    },
+    "prefer-stable": true,
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
