@@ -21,6 +21,11 @@
   background: rgba(17, 17, 16, 0.4);
 }
 
+.main-header .region{
+  position: relative;
+  z-index: 2;
+}
+
 .banner {
   text-align: center;
   padding: 150px 0 150px 0;
@@ -39,18 +44,84 @@ h2.banner {
 }
 
 
-.main-header .region{
+/* START: estilos */
+
+.taller {
+  background: url(../images/ceramica1.jpg);
+  background-size: auto auto;
+  color: #fff;
+  background-size: cover;
+  position: relative;
+  text-align: left;
+} 
+
+.taller:after {
+  position: absolute;
+  display: block;
+  color: #fff;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(17, 17, 16, 0.6);
+}
+
+.taller .region{
   position: relative;
   z-index: 2;
 }
 
-/* START: ESTILO KVROL */
-
-.estilokvrol {
-  background: url(../images/kvrolmobile.jpg);
+.tienda {
+  background: url(../images/ceramicas.jpg);
+  background-size: auto auto;
   color: #fff;
-  padding: 10px 0 80px 0;
+  background-size: cover;
+  position: relative;
+  text-align: left;
+} 
 
+.tienda:after {
+  position: absolute;
+  display: block;
+  color: #fff;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(17, 17, 16, 0.6);
+}
+
+.tienda .region{
+  position: relative;
+  z-index: 2;
+}
+
+.noticias {
+  background: url(../images/ceramica1.jpg);
+  background-size: auto auto;
+  color: #fff;
+  background-size: cover;
+  position: relative;
+  text-align: left;
+} 
+
+.noticias:after {
+  position: absolute;
+  display: block;
+  color: #fff;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(17, 17, 16, 0.6);
+}
+
+.noticias .region{
+  position: relative;
+  z-index: 2;
 }
 
 img {
@@ -58,7 +129,7 @@ img {
   height: 100%;
 }
 
-/* END: ESTILO KVROL */
+/* END: Tienda */
 
 
 
@@ -137,7 +208,6 @@ margin: 50px 0 50px 0;
 .contacto {
   background: #fff;
   color: #888787;
-  text-align: center;
 }
 
 .enlacesdeinteres  {
@@ -215,7 +285,16 @@ margin: 50px 0 50px 0;
   background: #333131;
   color: #888787;
   font-size: 18px;
-  padding: 0 0 30px 0;
+  padding: 60px 0 30px 0;
+  text-align: center;
+}
+
+.footer p {
+  background: #333131;
+  color: #888787;
+  font-family: 'Alegreya Sans';
+  font-size: 18px;
+  padding: 60px 0 30px 0;
   text-align: center;
 }
 
@@ -235,6 +314,12 @@ margin: 50px 0 50px 0;
     padding: 90px 90px;
   }
   .box h2 {
+    font-size: 45px;
+  }
+  .boxa {
+    padding: 0px 90px 90px 90px;
+  }
+  .boxa h2 {
     font-size: 45px;
   }
 }
@@ -260,6 +345,3 @@ margin: 50px 0 50px 0;
   }
 
 }
-
-
-

@@ -1,7 +1,6 @@
 <div id="page-wrapper">
   <div id="page">
 
-
   <!--Start: Branding and Menu -->
 <div id="stick">
   <div class="menu">
@@ -32,138 +31,88 @@
     {% endif %}
   <!--End: Slider -->
 
-<!-- Header and Navbar -->
-{# <header class="main-header">
 
-
-
-  <!-- Start: Banner -->
-    {% if page.welcome_banner_text %}
-      <div class="container">
-        <div class="banner">
-          <div class="row">
-            <div class="col-md-12">
-              {{ page.welcome_banner_text }}
-            </div>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-  <!-- End: Banner -->
-
-
-  <!--Start: Highlighted -->
-    {% if page.highlighted %}
-      <div class="highlighted">
+      <!--- Start Messages -->
+      {% if page.messages %}
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              {{ page.highlighted }}
-            </div>
+              {{ page.messages }}
           </div>
         </div>
-      </div>
-    {% endif %}
-  <!--End: Highlighted -->
+      {% endif %}
+      <!---End Messages -->
 
-</header> #}
-<!--End Header & Navbar -->
+      <!--- Start content -->
+      {% if page.content %}
+        <div class="container">
+          <div class="row contenido">
+              {{ page.content }}
+          </div>
+        </div>
+      {% endif %}
+      <!---End content -->
 
-
-
-      <!--- Start Profesionalismo y Eficiencia -->
-      {% if page.profesionalismoyeficiencia %}
-        <div class="container-fluid profesionalismo-y-eficiencia box">
+      <!--- Start Biografía -->
+      {% if page.biografia %}
+        <div class="container-fluid biografia boxa">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-                {{ page.profesionalismoyeficiencia }}
+                {{ page.biografia }}
             </div>
           </div>
         </div>
       {% endif %}
-      <!---End Profesionalismo y Eficiencia -->
+      <!---End Biografía -->
 
-      <!--- Start About -->
-{#         <div class="container-fluid about box">
+      <!--- Start Taller -->
+      {% if page.taller %}
+        <div class="container-fluid taller box">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="col-md-4">
-                {{ page.quea }}
-              </div>
-              <div class="col-md-4">
-                {{ page.queb }}
-              </div>
-              <div class="col-md-4">
-                {{ page.quec }}
-              </div>
-            </div>
-          </div>
-        </div> #}
-      <!---End About -->
-
-      <!--- Start Nuestra empresa -->
-      {% if page.nuestraempresa %}
-        <div class="container-fluid nuestraempresa box">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                {{ page.nuestraempresa }}
+            <div class="col-md-9 col-md-offset-2">
+                {{ page.taller }}
             </div>
           </div>
         </div>
       {% endif %}
-      <!---End Nuestra empresa -->
+      <!---End Taller -->
 
-      <!--- Start Nuestros profesionales -->
-{#       {% if page.nuestrosprofesionales %}
-        <div class="container-fluid nuestrosprofesionales box">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                {{ page.nuestrosprofesionales }}
-            </div>
-          </div>
-        </div>
-      {% endif %} #}
-      <!---End Nuestros profesionales -->
-
-      <!--- Start Áreas de Actuación -->
-{#       {% if page.areasdeactuacion %}
-        <div class="container-fluid areasdeactuacion box">
+      <!--- Start Clases -->
+      {% if page.clases %}
+        <div class="container-fluid clases box">
           <div class="row">
             <div class="col-md-12">
-                {{ page.areasdeactuacion }}
+                {{ page.clases }}
             </div>
           </div>
         </div>
-      {% endif %} #}
-      <!---End Áreas de Actuación -->
+      {% endif %}
+      <!---End Clases -->
 
-      <!--- Start Clientes -->
-{#       {% if page.clientes %}
-        <div class="container-fluid clientes box">
+      <!--- Start Tienda -->
+      {% if page.tienda %}
+        <div class="container-fluid tienda box">
           <div class="row">
             <div class="col-md-12">
-                {{ page.clientes }}
+                {{ page.tienda }}
             </div>
           </div>
         </div>
-      {% endif %} #}
-      <!---End Clientes -->
+      {% endif %}
+      <!---End Tienda -->
 
-      <!--- Start Contacto -->
-{#       {% if page.contacto %}
-        <div class="container-fluid contacto box">
+      <!--- Start Galería -->
+      {% if page.galeria %}
+        <div class="container-fluid galeria box">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                {{ page.contacto }}
+                {{ page.galeria }}
             </div>
           </div>
         </div>
-      {% endif %} #}
-      <!---End Contacto -->
+      {% endif %}
+      <!---End Galería -->
 
-
-
-            <!--- Start Contacto -->
+      <!--- Start Enlaces de Interés -->
       {% if page.enlacesdeinteres %}
         <div class="container-fluid enlacesdeinteres">
           <div class="row">
@@ -179,27 +128,7 @@
           </div>
         </div>
       {% endif %}
-      <!---End Contacto -->
-
-
-
-<!--Start: Social -->
-    <div class="container-fluid rs">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="redsocial">
-            <div class="sociales">
-								<ul class="social">
-									<li><a href="#" class="icon fa-facebook"></a></li>
-									<li><a href="#" class="icon fa-twitter"></a></li>
-									<li><a href="#" class="icon fa-linkedin"></a></li>
-								</ul>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-<!--End: Social -->
+      <!---End Enlaces de interés -->
 
 <!--Start: Footer -->
   <div class="footer">

@@ -1,1 +1,0 @@
-window.drupalTranslations = {"strings":{"":{"Save":"Guardar","Changed":"Modificado","Home":"Inicio","(active tab)":"(solapa activa)","Image":"Imagen","Edit":"Editar","Open":"Abierta","Close":"Cerrar","Hide":"Ocultar","Not restricted":"Sin restricci\u00f3n","Disable":"Desactivar","Link":"Enlace","Cancel":"Cancelar","Enable":"Activar"}},"pluralFormula":{"1":0,"default":1}};

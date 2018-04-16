@@ -217,7 +217,17 @@ body {
 /* Formulario de contacto del sitio. */
 
 label {
-    display: block;
+  color: #333; 
+  font-family: 'Nixie One';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.webform-button--submit {
+  float: right;
+  font-family: 'Nixie One';
+  font-style: normal;
+  font-weight: normal;
 }
 
 elemento {
@@ -337,9 +347,9 @@ ul.links.inline li{
   margin: 0;
 }
 
-.google_map iframe{
+/* .google_map iframe{
   display: block;
-}
+} */
 
 /*Credit link*/
 
@@ -412,7 +422,7 @@ ul.links.inline li{
 
 textarea {
   background: rgba(0, 0, 0, 0.03);
-  color: #888787;
+  color: #bb1212;
 }
 .form-textarea {
   margin: 0;
@@ -433,7 +443,7 @@ input, button, select, textarea {
 
 .btn,
 input[type="submit"]{
-  background: #19c2c8;
+  background: #F7AF16;
   color: #fff;
   border: 0;
   padding: 13px;
@@ -443,7 +453,8 @@ input[type="submit"]{
 
 .btn:hover,
 input[type="submit"]:hover{
-  background: #13ADB3;
+  background: #ccc;
+  color: #fff;
 }
 
 

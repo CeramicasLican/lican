@@ -24,12 +24,8 @@
   </div>
 </div>
 
-
-
 <!-- Header and Navbar -->
 <header class="main-header">
-
-
 
   <!-- Start: Banner -->
     {% if page.welcome_banner_text %}
@@ -63,6 +59,15 @@
 </header>
 <!--End Header & Navbar -->
 
+      <!--- Start Messages -->
+      {% if page.messages %}
+        <div class="container">
+          <div class="row">
+              {{ page.messages }}
+          </div>
+        </div>
+      {% endif %}
+      <!---End Messages -->
 
 
       <!--- Start content -->
@@ -74,8 +79,6 @@
         </div>
       {% endif %}
       <!---End content -->
-
-
 
             <!--- Start Contacto -->
       {% if page.enlacesdeinteres %}
@@ -94,26 +97,6 @@
         </div>
       {% endif %}
       <!---End Contacto -->
-
-
-
-<!--Start: Social -->
-    <div class="container-fluid rs box">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="redsocial">
-            <div class="sociales">
-								<ul class="social">
-									<li><a href="#" class="icon fa-facebook"></a></li>
-									<li><a href="#" class="icon fa-twitter"></a></li>
-									<li><a href="#" class="icon fa-linkedin"></a></li>
-								</ul>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-<!--End: Social -->
 
 <!--Start: Footer -->
   <div class="footer">
